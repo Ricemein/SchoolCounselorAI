@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - USE_LOCAL_MODEL=${USE_LOCAL_MODEL:-false}
+      - LOCAL_MODEL=${LOCAL_MODEL:-TinyLlama/TinyLlama-1.1B-Chat-v1.0}
+    volumes:
+      - ./api:/app
+      - ~/.cache/huggingface:/root/.cache/huggingface
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  huggingface-cache:
