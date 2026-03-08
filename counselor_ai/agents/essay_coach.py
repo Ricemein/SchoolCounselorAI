@@ -1,7 +1,7 @@
 """
 Essay coach agent
 """
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 from counselor_ai.agents.base_agent import BaseAgent
 from counselor_ai.models.student import StudentProfile
 from counselor_ai.knowledge.prompts import (

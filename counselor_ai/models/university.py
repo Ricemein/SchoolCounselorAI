@@ -1,7 +1,7 @@
 """
 University and program models
 """
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Any
 from pydantic import BaseModel, Field
 
 
@@ -82,7 +82,7 @@ class University(BaseModel):
     
     # Additional Info
     notable_alumni: List[str] = Field(default_factory=list, description="Notable alumni in tech")
-    career_outcomes: Dict[str, any] = Field(default_factory=dict, description="Career statistics")
+    career_outcomes: Dict[str, Any] = Field(default_factory=dict, description="Career statistics")
     
     # Requirements
     requires_sat_act: bool = Field(default=False, description="Test-optional status")
