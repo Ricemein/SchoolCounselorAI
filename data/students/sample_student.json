@@ -1,0 +1,134 @@
+{
+  "student_id": "12345",
+  "name": "Alex Chen",
+  "email": "alex.chen@example.com",
+  "graduation_year": 2025,
+  "academic_record": {
+    "gpa": 3.85,
+    "gpa_weighted": 4.2,
+    "class_rank": 15,
+    "class_size": 450,
+    "sat_total": 1480,
+    "sat_math": 780,
+    "sat_ebrw": 700,
+    "ap_courses": [
+      "AP Computer Science A",
+      "AP Computer Science Principles",
+      "AP Calculus BC",
+      "AP Physics C",
+      "AP Statistics",
+      "AP English Language"
+    ],
+    "ap_scores": {
+      "AP Computer Science A": 5,
+      "AP Calculus BC": 5,
+      "AP Physics C": 4,
+      "AP Statistics": 4
+    },
+    "cs_courses": [
+      "AP Computer Science A",
+      "AP Computer Science Principles",
+      "Data Structures (dual enrollment)",
+      "Web Development"
+    ],
+    "math_courses": [
+      "AP Calculus BC",
+      "AP Statistics",
+      "Multivariable Calculus (dual enrollment)"
+    ]
+  },
+  "cs_interests": [
+    "Artificial Intelligence/Machine Learning",
+    "Robotics",
+    "Computer Vision"
+  ],
+  "career_goals": "Interested in pursuing graduate research in AI/ML and eventually working on autonomous systems or contributing to AI safety research.",
+  "research_interests": "Computer vision applications in robotics, reinforcement learning for autonomous agents",
+  "extracurriculars": [
+    {
+      "name": "Robotics Club",
+      "category": "STEM",
+      "role": "Team Captain",
+      "years_participated": 3,
+      "hours_per_week": 10,
+      "achievements": [
+        "Regional Competition 1st Place",
+        "State Competition Finalist"
+      ],
+      "description": "Lead team in designing and programming autonomous robots for FIRST Robotics Competition"
+    },
+    {
+      "name": "Math Team",
+      "category": "Academic",
+      "role": "Member",
+      "years_participated": 4,
+      "hours_per_week": 3,
+      "achievements": [
+        "AMC 12 School Winner",
+        "AIME Qualifier"
+      ]
+    },
+    {
+      "name": "Computer Science Club",
+      "category": "STEM",
+      "role": "Founder and President",
+      "years_participated": 2,
+      "hours_per_week": 5,
+      "achievements": [
+        "Started club from scratch",
+        "Grew membership to 45 students"
+      ],
+      "description": "Founded club to teach programming to peers and organize hackathons"
+    },
+    {
+      "name": "Volunteer Coding Instructor",
+      "category": "Service",
+      "role": "Instructor",
+      "years_participated": 2,
+      "hours_per_week": 3,
+      "description": "Teach basic Python programming to middle school students at local library"
+    }
+  ],
+  "research_experience": [
+    {
+      "title": "Object Detection Using Deep Learning",
+      "field": "Computer Science - Computer Vision",
+      "description": "Developed a CNN-based object detection system for identifying recyclable materials. Achieved 87% accuracy on custom dataset of 5000 images.",
+      "duration_months": 6,
+      "mentor": "Dr. Sarah Johnson, Local University CS Department",
+      "outcome": "Presented at Regional Science Fair - 2nd Place; Submitted paper to Journal of Young Researchers"
+    }
+  ],
+  "work_experience": [
+    "Summer Intern at Local Tech Startup (Summer 2024) - Web Development"
+  ],
+  "awards_honors": [
+    "National Merit Commended Scholar",
+    "AP Scholar with Distinction",
+    "Regional Science Fair - 2nd Place (CS Category)",
+    "USACO Silver Division",
+    "School Computer Science Award"
+  ],
+  "leadership_positions": [
+    "Robotics Club Team Captain",
+    "Computer Science Club Founder and President"
+  ],
+  "first_generation": false,
+  "underrepresented_minority": false,
+  "geographic_preference": [
+    "California",
+    "Massachusetts",
+    "Northeast",
+    "West Coast"
+  ],
+  "financial_need": "medium",
+  "target_deadline": "regular_decision",
+  "preferred_university_size": "medium to large",
+  "preferred_location": "urban or suburban",
+  "counselor_notes": "Strong technical profile with demonstrated leadership. Research experience is a significant strength. Could strengthen profile with more advanced coursework or additional research. Consider reaching schools given strong fundamentals.",
+  "student_essay_topics": [
+    "Journey building the robotics team and overcoming technical challenges",
+    "Computer vision research project and what it taught about AI limitations",
+    "Teaching coding to younger students and making CS accessible"
+  ]
+}

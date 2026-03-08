@@ -1,0 +1,81 @@
+MIT License
+
+Copyright (c) 2026 College Admissions AI Counselor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+DISCLAIMER
+
+This software is designed to assist school counselors in guiding students through
+the college admissions process. The recommendations and analyses provided by this
+software are for informational and guidance purposes only and should not be
+considered as professional advice or guarantees of admission outcomes.
+
+Users should:
+- Verify all university data and admission statistics independently
+- Consult with qualified educational counselors and admission professionals
+- Review official university websites for current requirements and deadlines
+- Comply with all applicable laws and regulations regarding student data privacy (FERPA)
+- Use AI-generated content as a starting point, not as final or authoritative advice
+
+The developers and contributors of this software:
+- Make no warranties regarding the accuracy or completeness of the information
+- Are not responsible for admission decisions or outcomes
+- Do not guarantee acceptance to any educational institution
+- Are not liable for any damages arising from the use of this software
+
+PRIVACY NOTE
+
+This software processes student data locally and via third-party APIs (OpenAI).
+Users are responsible for:
+- Obtaining necessary permissions to collect and process student data
+- Complying with FERPA, COPPA, and other relevant privacy regulations
+- Securing API keys and preventing unauthorized access
+- Protecting student privacy and confidentiality
+
+---
+
+THIRD-PARTY NOTICES
+
+This software uses the following third-party libraries and services:
+
+OpenAI API
+- Service: https://openai.com
+- Terms: https://openai.com/terms
+- Privacy: https://openai.com/privacy
+
+LangChain
+- License: MIT
+- Repository: https://github.com/langchain-ai/langchain
+
+Pydantic
+- License: MIT
+- Repository: https://github.com/pydantic/pydantic
+
+Rich
+- License: MIT
+- Repository: https://github.com/Textualize/rich
+
+Click
+- License: BSD-3-Clause
+- Repository: https://github.com/pallets/click
+
+See requirements.txt for complete list of dependencies.

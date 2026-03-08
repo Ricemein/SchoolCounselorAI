@@ -1,0 +1,295 @@
+{
+  "universities": [
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, MA",
+      "region": "Northeast",
+      "institution_type": "private",
+      "size": "medium",
+      "setting": "urban",
+      "cs_program": {
+        "name": "Computer Science and Engineering",
+        "degree_types": ["BS", "MEng"],
+        "specializations": ["Artificial Intelligence", "Systems", "Theory", "Graphics", "Robotics"],
+        "research_opportunities": true,
+        "coop_internship": true,
+        "us_news_ranking": 1
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.04,
+        "avg_gpa": 4.0,
+        "gpa_25th": 3.9,
+        "gpa_75th": 4.0,
+        "sat_avg": 1540,
+        "sat_25th": 1510,
+        "sat_75th": 1570
+      },
+      "tuition_out_state": 57590,
+      "meets_full_need": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "Stanford University",
+      "location": "Stanford, CA",
+      "region": "West",
+      "institution_type": "private",
+      "size": "medium",
+      "setting": "suburban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS", "MS"],
+        "specializations": ["AI", "HCI", "Systems", "Theory", "Biocomputation"],
+        "research_opportunities": true,
+        "coop_internship": false,
+        "us_news_ranking": 1
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.04,
+        "avg_gpa": 3.96,
+        "gpa_25th": 3.9,
+        "gpa_75th": 4.0,
+        "sat_avg": 1520,
+        "sat_25th": 1470,
+        "sat_75th": 1570
+      },
+      "tuition_out_state": 58416,
+      "meets_full_need": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "region": "Northeast",
+      "institution_type": "private",
+      "size": "medium",
+      "setting": "urban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS"],
+        "specializations": ["AI/ML", "Robotics", "Software Engineering", "HCI", "Graphics"],
+        "research_opportunities": true,
+        "coop_internship": false,
+        "us_news_ranking": 1
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.11,
+        "cs_acceptance_rate": 0.05,
+        "avg_gpa": 3.9,
+        "gpa_25th": 3.8,
+        "gpa_75th": 4.0,
+        "sat_avg": 1520,
+        "sat_25th": 1490,
+        "sat_75th": 1560
+      },
+      "tuition_out_state": 61344,
+      "meets_full_need": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "region": "West",
+      "institution_type": "public",
+      "size": "large",
+      "setting": "urban",
+      "cs_program": {
+        "name": "Electrical Engineering and Computer Sciences",
+        "degree_types": ["BS"],
+        "specializations": ["AI", "Systems", "Theory", "Security", "Graphics"],
+        "research_opportunities": true,
+        "coop_internship": false,
+        "us_news_ranking": 1
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.11,
+        "avg_gpa": 3.9,
+        "gpa_25th": 3.85,
+        "gpa_75th": 4.0,
+        "sat_avg": 1450,
+        "sat_25th": 1400,
+        "sat_75th": 1530
+      },
+      "tuition_in_state": 14312,
+      "tuition_out_state": 44008,
+      "meets_full_need": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign",
+      "location": "Urbana, IL",
+      "region": "Midwest",
+      "institution_type": "public",
+      "size": "large",
+      "setting": "suburban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS"],
+        "specializations": ["AI", "Systems", "Scientific Computing", "Interactive Computing"],
+        "research_opportunities": true,
+        "coop_internship": true,
+        "us_news_ranking": 5
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.45,
+        "cs_acceptance_rate": 0.06,
+        "avg_gpa": 3.85,
+        "gpa_25th": 3.7,
+        "gpa_75th": 4.0,
+        "sat_avg": 1450,
+        "sat_25th": 1400,
+        "sat_75th": 1520
+      },
+      "tuition_in_state": 17572,
+      "tuition_out_state": 35110,
+      "financial_aid_available": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "region": "South",
+      "institution_type": "public",
+      "size": "large",
+      "setting": "urban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS"],
+        "specializations": ["AI", "Systems", "Theory", "HCI", "Robotics"],
+        "research_opportunities": true,
+        "coop_internship": true,
+        "us_news_ranking": 5
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.16,
+        "avg_gpa": 4.1,
+        "gpa_25th": 3.9,
+        "gpa_75th": 4.0,
+        "sat_avg": 1465,
+        "sat_25th": 1390,
+        "sat_75th": 1540
+      },
+      "tuition_in_state": 12852,
+      "tuition_out_state": 33794,
+      "financial_aid_available": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "University of Michigan",
+      "location": "Ann Arbor, MI",
+      "region": "Midwest",
+      "institution_type": "public",
+      "size": "large",
+      "setting": "suburban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS", "BSE"],
+        "specializations": ["AI", "Systems", "Theory", "HCI"],
+        "research_opportunities": true,
+        "coop_internship": false,
+        "us_news_ranking": 10
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.18,
+        "avg_gpa": 3.9,
+        "gpa_25th": 3.8,
+        "gpa_75th": 4.0,
+        "sat_avg": 1470,
+        "sat_25th": 1400,
+        "sat_75th": 1530
+      },
+      "tuition_in_state": 17786,
+      "tuition_out_state": 57273,
+      "meets_full_need": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "University of Washington",
+      "location": "Seattle, WA",
+      "region": "West",
+      "institution_type": "public",
+      "size": "large",
+      "setting": "urban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS"],
+        "specializations": ["AI", "Systems", "Theory", "Data Science"],
+        "research_opportunities": true,
+        "coop_internship": true,
+        "us_news_ranking": 7
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.48,
+        "cs_acceptance_rate": 0.05,
+        "avg_gpa": 3.8,
+        "gpa_25th": 3.7,
+        "gpa_75th": 3.95,
+        "sat_avg": 1420,
+        "sat_25th": 1360,
+        "sat_75th": 1510
+      },
+      "tuition_in_state": 12242,
+      "tuition_out_state": 40740,
+      "financial_aid_available": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "Purdue University",
+      "location": "West Lafayette, IN",
+      "region": "Midwest",
+      "institution_type": "public",
+      "size": "large",
+      "setting": "suburban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS"],
+        "specializations": ["AI", "Systems", "Software Engineering", "Security"],
+        "research_opportunities": true,
+        "coop_internship": true,
+        "us_news_ranking": 20
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.53,
+        "avg_gpa": 3.7,
+        "gpa_25th": 3.5,
+        "gpa_75th": 3.9,
+        "sat_avg": 1340,
+        "sat_25th": 1270,
+        "sat_75th": 1480
+      },
+      "tuition_in_state": 9992,
+      "tuition_out_state": 28794,
+      "financial_aid_available": true,
+      "requires_sat_act": false
+    },
+    {
+      "name": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "region": "South",
+      "institution_type": "public",
+      "size": "large",
+      "setting": "urban",
+      "cs_program": {
+        "name": "Computer Science",
+        "degree_types": ["BS"],
+        "specializations": ["AI", "Systems", "Theory", "Graphics"],
+        "research_opportunities": true,
+        "coop_internship": false,
+        "us_news_ranking": 10
+      },
+      "admission_stats": {
+        "acceptance_rate": 0.29,
+        "cs_acceptance_rate": 0.08,
+        "avg_gpa": 3.85,
+        "gpa_25th": 3.7,
+        "gpa_75th": 3.98,
+        "sat_avg": 1380,
+        "sat_25th": 1290,
+        "sat_75th": 1500
+      },
+      "tuition_in_state": 11698,
+      "tuition_out_state": 40032,
+      "financial_aid_available": true,
+      "requires_sat_act": false
+    }
+  ]
+}
