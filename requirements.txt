@@ -6,6 +6,11 @@ langchain-openai>=0.0.5
 langchain-anthropic>=0.1.0
 langgraph>=0.0.20
 
+# Local LLM Support (optional - for running without OpenAI API)
+torch>=2.0.0
+transformers>=4.34.0
+accelerate>=0.24.0
+
 # Data Processing
 pandas>=2.0.0
 numpy>=1.24.0

@@ -38,10 +38,46 @@ cp .env.example .env
 
 ## Configuration
 
+### Option 1: Use OpenAI API (Recommended for best results)
+
 Add your API keys to `.env`:
-```
+```bash
 OPENAI_API_KEY=your_openai_api_key
 ANTHROPIC_API_KEY=your_anthropic_api_key  # Optional
+```
+
+Get your API key from: https://platform.openai.com/api-keys
+
+### Option 2: Use Local LLM (No API Key Required!)
+
+Run the counselor **completely offline** using local models like TinyLlama:
+
+```bash
+# Edit .env file
+USE_LOCAL_MODEL=true
+LOCAL_MODEL=TinyLlama/TinyLlama-1.1B-Chat-v1.0
+```
+
+**Benefits:**
+- ✓ No API key needed
+- ✓ No usage costs
+- ✓ Complete data privacy
+- ✓ Works offline
+
+**Requirements:**
+- More RAM (~2-13GB depending on model)
+- First run downloads model (may take time)
+- GPU recommended but not required
+
+**Supported Models:**
+- `TinyLlama/TinyLlama-1.1B-Chat-v1.0` (default, ~2GB)
+- `microsoft/phi-2` (~5GB)
+- `meta-llama/Llama-2-7b-chat-hf` (~13GB)
+- Any HuggingFace chat model
+
+Try the example:
+```bash
+python examples/local_model_example.py
 ```
 
 ## Usage

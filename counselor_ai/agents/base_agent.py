@@ -4,21 +4,21 @@ Base agent implementation for college counseling
 from typing import List, Dict, Any, Optional
 from counselor_ai.models.student import StudentProfile
 from counselor_ai.models.university import University
-from counselor_ai.utils.llm_client import LLMClient
+from counselor_ai.utils.llm_client import create_llm_client
 from counselor_ai.knowledge.prompts import *
 
 
 class BaseAgent:
     """Base class for all counselor AI agents"""
     
-    def __init__(self, llm_client: Optional[LLMClient] = None):
+    def __init__(self, llm_client=None):
         """
         Initialize base agent
         
         Args:
             llm_client: LLM client instance (creates new one if not provided)
         """
-        self.llm = llm_client or LLMClient()
+        self.llm = llm_client or create_llm_client()
     
     def _format_student_profile(self, student: StudentProfile) -> str:
         """Format student profile for LLM consumption"""
@@ -108,14 +108,14 @@ class CounselorAgent:
     Main counselor agent that coordinates specialized agents
     """
     
-    def __init__(self, llm_client: Optional[LLMClient] = None):
+    def __init__(self, llm_client=None):
         """
         Initialize the counselor agent with all specialized agents
         
         Args:
             llm_client: Optional LLM client to share across agents
         """
-        self.llm = llm_client or LLMClient()
+        self.llm = llm_client or create_llm_client()
         
         # Import specialized agents here to avoid circular imports
         from counselor_ai.agents.profile_analyzer import ProfileAnalyzerAgent
